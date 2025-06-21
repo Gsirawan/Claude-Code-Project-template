@@ -29,6 +29,7 @@ When developing:
 - Installing dependencies (update pip && install requirements.txt)
 - Register your custom slash commands from `.claude/commands.json`
 - Commit to Git repository.
+- update `.claude/context.json` when you complete a task, add what has been done to the complete_task with a short paragraph, name the created files.
 
 **Steps for new session (When continuing a project)**
 - Activate venv

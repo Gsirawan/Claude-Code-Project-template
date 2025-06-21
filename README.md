@@ -24,8 +24,8 @@ This template solves these issues by providing:
 - Open terminal 
 - Run `claude` and send prompt 
   - `Read and follow CLAUDE.md instructions`
-- For new session (When continuing a project), Prompt 
-  - `This is a new session Read .claude/session_template.md`
+- For new session (when continuing a project) Prompt 
+  - `This is a new session, Read .claude/session_template.md`
 - Proceed with your project tasks
 
 ---
@@ -43,15 +43,17 @@ A comprehensive template repository for Claude Code projects with pre-configured
 
 ```
 Claude-Code-Project-template/
-├── CLAUDE.md              # Main project context file for Claude Code
-├── init.sh                # Project initialization script
-├── scripts/               # Utility scripts
-│   ├── conversations.py   # Conversation management tools
-│   ├── restore_session.py # Session restoration utilities
-│   └── screenshot.py      # Screenshot automation
-└── templates/             # Template files
-    ├── README.md          # Project README template
-    └── requirements.txt   # Python dependencies template
+├── .claude/                  # claude config folder
+│   ├── commands.json         # custom slash commands tools
+│   ├── context.json          # Session restoration notes
+│   └── session_template.md   # Continue with new sesion prompt
+├── scripts/                  # Utility scripts
+│   ├── conversations.py      # Conversation management tools
+│   ├── restore_session.py    # Session restoration utilities
+│   └── screenshot.py         # Screenshot automation
+├── CLAUDE.md                 # Main project context file for Claude Code (system prompt)        
+├── README.md                 # Project README template
+└── requirements.txt          # Python dependencies template
 ```
 
 ## 🛠 Quick Start
@@ -114,7 +116,3 @@ Feel free to submit issues and pull requests to improve this template.
 ## 📄 License
 
 This template is provided as-is for use with Claude Code projects.
-
----
-
-**Generated with Claude Code** 🤖
