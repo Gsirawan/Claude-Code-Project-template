@@ -1,0 +1,10 @@
+{
+  "project": "your_project_name",
+  "current_task": "What you're working on",
+  "last_file": "src/main.py",
+  "next_steps": [
+    "Step 1",
+    "Step 2"
+  ],
+  "notes": "Any important context"
+}

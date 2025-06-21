@@ -192,3 +192,24 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+screenshots/
+conversations/
+*.log
+.env
+.env.local
+
+# Claude specific
+.claude/mcp_config.json
+
+# OS
+.DS_Store
+Thumbs.db
