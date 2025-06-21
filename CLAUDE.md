@@ -24,11 +24,11 @@ When developing:
 
 **Steps for staring a project (first time only)**
 - Read and follow CLAUDE.md
-- Execute init.sh (Creating venv environment).
+- Creating Python virtual environment
+- Activating virtual environment
+- Installing dependencies (update pip && install requirements.txt)
 - Register your custom slash commands from `.claude/commands.json`
-- Activate venv environment.
-- Install requirements.txt
-- Commit all those changes to Github Repo.
+- Commit to Git repository.
 
 **Steps for new session (When continuing a project)**
 - Activate venv

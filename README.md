@@ -22,8 +22,10 @@ This template solves these issues by providing:
 ## How to start and continue with Claude
 
 - Open terminal 
-- Run `claude` and send prompt `Read and follow CLAUDE.md instructions`
-- For new session (When continuing a project), Prompt Read `.cloude/session_template.md`
+- Run `claude` and send prompt 
+  - `Read and follow CLAUDE.md instructions`
+- For new session (When continuing a project), Prompt 
+  - `This is a new session Read .claude/session_template.md`
 - Proceed with your project tasks
 
 ---
