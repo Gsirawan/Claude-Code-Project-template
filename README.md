@@ -19,14 +19,19 @@ This template solves these issues by providing:
 
 ---
 
-## How to start and continue with Claude
+### How to start with Claude
 
 - Open terminal 
-- Run `claude` and send prompt 
+- Run `claude` and send prompt
   - `Read and follow CLAUDE.md instructions`
-- For new session (when continuing a project) Prompt 
+- Start with your project tasks.
+ 
+### How to continue with Claude
+ 
+- Open terminal 
+- Run `claude` and send for the new session (when continuing a project) Prompt 
   - `This is a new session, Read .claude/session_template.md`
-- Proceed with your project tasks
+- Proceed with your project tasks.
 
 ---
 
